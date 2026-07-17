@@ -6,8 +6,13 @@
 		<title>{{ title }}</title>
 		<link rel="stylesheet" href="/assets/css/main.css">
 	</head>
-	<body class="min-h-dvh bg-white text-gray-900 font-sans antialiased overflow-x-hidden">
-		{% include "partials/site-head.html" %}
-		<main tabindex="-1" id="main-content" class="mx-auto px-24 py-12">{% block content %}{% endblock %}</main>
+	<body id="site-body" class="m-0 font-sans antialiased">
+		<main tabindex="-1" id="main-content" class="relative bg-white py-12 px-10 mx-auto flex flex-col max-w-7xl">
+			{% include "partials/site-head.html" %}
+			<div class="flex-grow md:px-12">
+				{% block content %}{% endblock %}
+			</div>
+			{% include "partials/footer.html" %}
+		</main>
 	</body>
 </html>
