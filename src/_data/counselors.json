@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "first": "First",
+            "last": "Last",
+            "photoUrl": "../assets/images/bg/tetons.webp",
+            "bio": "Bio stuff goes here."
+        },
+        {
+            "first": "Toby",
+            "last": "Larry",
+            "photoUrl": "../assets/images/bg/tetons.webp",
+            "bio": "Toby is a great man."
+        }
+    
+    ]
+
+
+}

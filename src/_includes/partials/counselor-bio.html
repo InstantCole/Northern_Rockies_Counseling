@@ -1,0 +1,15 @@
+{% for item in counselors.items %}
+<div class="relative flex-1">
+    <div class="flex flex-col sm:flex-row gap-2 sm:gap-16 mx-auto">
+        <div class="flex-col">
+            <img src="../assets/images/bg/tetons.webp" width="175px"/>
+            <div>1</div>
+            <div>2</div>
+        </div>
+        <div class="relative flex-grow min-w-40">
+            {{ item.first }} {{ item.last }}
+            {{ item.bio }}
+        </div>
+    </div>
+</div>
+{% endfor %}
