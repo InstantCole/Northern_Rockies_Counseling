@@ -1,0 +1,25 @@
+{
+  "name": "northern_rockies_counseling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:css && npx @11ty/eleventy --serve & postcss src/assets/css/main.css -o dist/assets/css/main.css --watch",
+    "build:css": "postcss src/assets/css/main.css -o dist/assets/css/main.css",
+    "build:eleventy": "npx @11ty/eleventy",
+    "build": "npm run build:css && npm run build:eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.2",
+    "postcss": "^8.5.17",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.3.2"
+  }
+}
