@@ -1,11 +1,21 @@
+@import url("https://googleapis.com");
 @import "tailwindcss";
 
 @theme {
     --breakpoint-hero-break: 1140px;
+    --font-playfair: "Playfair Display", serif;
+    --font-lato: "Lato", sans-serif;
 }
 
 @layer base  {
     h1 {
-        @apply text-4xl font-bold tracking-tight text-gray-900;
+        @apply text-4xl font-playfair;
+    }
+    h2 {
+        @apply text-2xl font-playfair;
+
+    }
+    body {
+        @apply font-lato;
     }
 }

@@ -4,13 +4,17 @@
             "first": "First",
             "last": "Last",
             "photoUrl": "../assets/images/bg/tetons.webp",
-            "bio": "Bio stuff goes here."
+            "bio": "Bio stuff goes here.",
+            "_scheduling": "y to add scheduling button, n to remove",
+            "scheduling": "y"
         },
         {
             "first": "Toby",
             "last": "Larry",
             "photoUrl": "../assets/images/bg/tetons.webp",
             "bio": "Toby is a great man.",
+            "_scheduling": "y to add scheduling button, n to remove",
+            "scheduling": "n",
             "second": "This is the second area"
         }
     
