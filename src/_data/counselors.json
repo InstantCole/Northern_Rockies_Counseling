@@ -10,7 +10,8 @@
             "first": "Toby",
             "last": "Larry",
             "photoUrl": "../assets/images/bg/tetons.webp",
-            "bio": "Toby is a great man."
+            "bio": "Toby is a great man.",
+            "second": "This is the second area"
         }
     
     ]
