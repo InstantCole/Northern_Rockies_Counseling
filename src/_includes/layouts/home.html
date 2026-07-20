@@ -1,8 +1,14 @@
 {% extends "layouts/base.html" %}
 {% block content %}
 {% include "partials/hero.html" %}
+<div class="px-12 md:px-0">
+
+
 <article>
 	<h1>{{ title }}</h1>
 	{{ content | safe }}
 </article>
+
+</div>
+
 {% endblock %}

@@ -1,24 +1,25 @@
 <div class="relative hero w-full bg-white max-w-7xl mx-auto">
-    <div class="relative pb-16 pt-8 flex-col md:flex-row overlfow-visible">
+    <div class="relative pb-16 pt-8 flex-col sm:flex-row overlfow-visible">
         <div class="absolute w-full max-h-75 overflow-hidden flex justify-center top-0 left-0 opacity-80 items-start">
-            <img src="../assets/images/bg/tetons.webp" class="max-w-300"/>
+            <img src="/assets/images/bg/tetons.webp" class="max-w-300"/>
         </div>
-        <div class="px-10 md:px-32 text-slate-900">
+        <div class="px-10 text-slate-900">
             <div class="relative pt-8">
                 <h1>{{ title }}</h1>
                 <h2>Coming soon! Website currently under construction.</h2>
             </div>
-            <div class="relative bg-orange pt-8 flex flex-col hero-break:flex-row gap-16 mx-auto">
+            <div class="relative pt-8 flex flex-row flex-wrap gap-16 mx-auto">
                 <div class="relative flex-1">
-                    <div class="relative flex flex-row items-start gap-12 rounded-lg shadow-lg p-6 bg-white/80 border-1 boder-slate-700">
+                    <div class="relative flex flex-col sm:flex-row items-start gap-12 rounded-lg shadow-lg p-6 bg-white/80 border-1 boder-slate-700">
                         <div class="relative min-w-40 flex-grow">
                             alskjfdlaksfjlsjf asldfkajsldfkj asldfkjaslfdkj ajdlaskjdfla alskdfjad
                         </div>
-                        {% button "Visit" %}
+                        {% set buttonText= "partial button" %}
+                        {% include "partials/button.html" %}
                     </div>
                 </div>
                 <div class="relative flex-1">
-                    <div class="relative flex flex-row items-start gap-12 rounded-lg shadow-lg p-6 bg-white/80 border-1 boder-slate-700">
+                    <div class="relative flex flex-col sm:flex-row items-start gap-12 rounded-lg shadow-lg p-6 bg-white/80 border-1 boder-slate-700">
                         <div class="relative min-w-40 flex-grow">
                             
                         </div>

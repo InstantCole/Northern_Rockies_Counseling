@@ -1,13 +1,57 @@
-<header role="banner" class="site-head">
-    <div class="wrapper px-4 md:px-12 py-12">
-	    <div class="mx-auto flex flex-col md:flex-row gap-12 max-w-7xl">
+<header role="banner" x-data="{ mobileMenuOpen: false }" class="site-head relative shadow-md z-50">
+    <div class="wrapper px-4 md:px-12 py-8">
+	    <div class="mx-auto flex flex-row gap-12 max-w-7xl">
             <a href="/" aria-label="{{ site.name }}" class="flex-grow">
                 <img width="275px" class="min-w-215px" src="../assets/logos/nrc_logo.jpg" alt="{{ site.name }}"/>
             </a>
-            <nav class="flex flex-col sm:flex-row justify-around items-start sm:items-end gap-4 sm:gap-12" aria-label="Primary">
+            <nav class="hidden sm:flex flex-col sm:flex-row justify-around items-start sm:items-end gap-4 sm:gap-12" aria-label="Primary">
                 {% for item in navigation.items %}
                 <a href="{{ item.url }}"  {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
                 {% endfor %}
+            </nav>
+                                <!-- x-on:click="mobileMenuOpen = !mobileMenuOpen" -->
+
+            <div class="flex items-end sm:hidden">
+                <button 
+                    x-on:click="console.log('Hamburger clicked! Current state:', mobileMenuOpen); mobileMenuOpen = !mobileMenuOpen"
+                    type="button" 
+                    class="text-gray-600 hover:text-gray-900 focus:outline-none"
+                    x-bind:aria-expanded="mobileMenuOpen"
+                    aria-label="Toggle navigation menu"
+                >
+                    <!-- Hamburger Icon (Shows when menu is closed) -->
+                    <svg x-show="!mobileMenuOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <!-- Close 'X' Icon (Shows when menu is open) -->
+                    <svg x-show="mobileMenuOpen" x-cloak class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+           
+        </div>
+        <div 
+            x-show="mobileMenuOpen" 
+            x-cloak
+            x-on:click.away="mobileMenuOpen = false"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 -translate-y-4"
+            x-transition:enter-end="opacity-100 translate-y-0"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 translate-y-0"
+            x-transition:leave-end="opacity-0 -translate-y-4"
+            class="sm:hidden absolute top-45 inset-x-0 bg-white shadow-lg border-t border-gray-100 justify-right"
+        >
+            <nav class="px-2 pt-2 pb-4 space-y-1 sm:px-3 text-right">
+               <!--  <a href="/" aria-label="{{ site.name }}" class="block">
+                    <img width="275px" class="min-w-215px" src="../assets/logos/nrc_logo.jpg" alt="{{ site.name }}"/>
+                </a> -->
+                <div class="divide-y-1 divide-gray-300">
+                {% for item in navigation.items %}
+                <a href="{{ item.url }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
+                {% endfor %}
+                </div>
             </nav>
         </div>
     </div>
