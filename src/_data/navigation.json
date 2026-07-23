@@ -2,11 +2,11 @@
     "items": [
         {
             "text": "Home",
-            "url": "/"
+            "url": "/Northern_Rockies_Counseling"
         },
         {
             "text": "Counselors",
-            "url": "/counselors"
+            "url": "/Northern_Rockies_Counseling/counselors/"
         }
     ]
 }
