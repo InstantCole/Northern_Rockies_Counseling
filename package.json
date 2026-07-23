@@ -8,7 +8,7 @@
     "build:css": "postcss src/assets/css/main.css -o dist/assets/css/main.css",
     "build:eleventy": "npx @11ty/eleventy",
     "build": "npm run build:css && npm run build:eleventy",
-    "build-ghpages": "npm run build:css && npm run build:eleventy --pathprefix=/Northern_Rockies_Counseling/"
+    "build-ghpages": "npm run build:css && npm run build:eleventy"
   },
   "keywords": [],
   "author": "",
