@@ -1,11 +1,43 @@
 {
-    "items": [
+    "header": [
         {
             "text": "Home",
             "url": "/"
         },
         {
             "text": "Counselors",
+            "url": "/counselors"
+        }
+        ,
+        {
+            "text": "Workshops",
+            "url": "/workshops"
+        }
+    ],
+
+    "footer": [
+        {
+            "text": "Map",
+            "url": "/"
+        },
+        {
+            "text": "Legal",
+            "url": "/counselors"
+        },
+        {
+            "text": "Legal",
+            "url": "/counselors"
+        },
+        {
+            "text": "Legal",
+            "url": "/counselors"
+        },
+        {
+            "text": "Legal",
+            "url": "/counselors"
+        },
+        {
+            "text": "Legal",
             "url": "/counselors"
         }
     ]

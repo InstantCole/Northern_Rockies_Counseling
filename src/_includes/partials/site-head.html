@@ -5,7 +5,7 @@
                 <img width="275px" class="min-w-215px" src="/assets/logos/nrc_logo.jpg" alt="{{ site.name }}"/>
             </a>
             <nav class="hidden sm:flex flex-col sm:flex-row justify-around items-start sm:items-end gap-4 sm:gap-12" aria-label="Primary">
-                {% for item in navigation.items %}
+                {% for item in navigation.header %}
                 <a href="{{ item.url }}"  {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
                 {% endfor %}
             </nav>
@@ -48,7 +48,7 @@
                     <img width="275px" class="min-w-215px" src="../assets/logos/nrc_logo.jpg" alt="{{ site.name }}"/>
                 </a> -->
                 <div class="divide-y-1 divide-gray-300">
-                {% for item in navigation.items %}
+                {% for item in navigation.header %}
                 <a href="{{ item.url }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
                 {% endfor %}
                 </div>

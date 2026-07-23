@@ -3,18 +3,23 @@
         {
             "first": "Julie",
             "last": "Ballew",
+            "pronouns": "(She/Her)",
+            "credentials": "PhD, LCPC, CCTP, CCFP",
+            "availability": "Accepting new patients",
             "photoUrl": "/assets/images/julie_ballew600x600.jpg",
-            "bio": "Bio stuff goes here.",
+            "bio": "I have been working in the mental health field in a variety of settings since 2005. </br></br> My professional and research interests include: promoting resiliency, trauma recovery, Eye Movement Desensitization and Reprocessing (EMDR), anxiety, depression, clinical supervision, and couples counseling. Theories that inform my clinical practice are EMDR, neurocounseling, person-centered, choice theory, mindfulness, Forward Facing Trauma Therapy and CBT. I use Gottman as a foundation for couples work. </br></br> I currently balance my group counseling practice with a clinical supervisor/adjunct teaching appointment in the Department of Counseling at the University of Montana. Additionally, I facilitate resiliency workshops and groups in a variety of settings. </br></br> I can often be found along a mountain trail with her beloved husband, son, daughter and dog.",
             "_scheduling": "y to add scheduling button, n to remove",
             "scheduling": "y"
         },
         {
             "first": "Mary Beth",
             "_last": "",
+            "credentials": "alfjjf",
+            "availability": "Accepting new patients",
             "photoUrl": "/assets/images/mary_beth600x600.jpg",
             "bio": "Whether you are navigating a major life transition, managing the daily impacts of anxiety or carrying the heavy weight of trauma, depression, and loneliness I am here to support you. I believe that therapy is a collaborative space where you can show up exactly as you are. Together, we will look at the deeper questions and patterns impacting your life, while actively building the practical tools you need to feel more grounded, resilient, and connected. </br></br> My approach is deeply holistic and tailored to your unique identity and story. I weave evidence-based psychological frameworks with practical mindfulness meditation tools to help you develop sustainable nervous system regulation and self-compassion.Taking the step to begin therapy can feel daunting, but you do not have to navigate these challenges alone. I offer a warm, collaborative, and non-judgmental space where we can work toward the meaningful change and healing you deserve.",
             "_scheduling": "y to add scheduling button, n to remove",
-            "scheduling": "n",
+            "scheduling": "y",
             "_second": "This is the second areadaf"
         }
     

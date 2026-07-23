@@ -1,21 +1,25 @@
 {% for item in counselors.items %}
 <div class="flex justify-between items-center py-4">
-    <div class="flex-col relative m-1 p-4 min-w-xs flex-1 mx-auto outline outline-2 outline-offset-0 outline-olive-300 rounded-xl">
+    <div class="flex-col relative p-6 min-w-xs flex-1 mx-auto outline outline-2 outline-offset-0 outline-olive-300 rounded-xl">
 
-        <div class="sm:flex sm:justify-start justify-around mx-auto w-full">   
-            <img src="{{ item.photoUrl }}" class="rounded-full sm:rounded-xl size-42 object-cover"/>
-            <div>
+        <div class="flex flex-col sm:flex-row  items-center sm:items-end mx-auto w-full">   
+            <img src="{{ item.photoUrl }}" class="flex rounded-full sm:rounded-xl size-42 object-cover"/>
+            <div class="flex-col items-center justify-start px-12">
                 {% if item.scheduling == "y" %}
-                    {% button "Schedule" %}
+                    {% set buttonText= "Schedule with " +item.first %}
+                    {% include "partials/button.html" %}
                 {% endif %}
+                <h2 class="text-base text-center"">{{ item.availability }}</h2>
             </div>    
         </div>
         <div class="border border-b-1 my-4 border-slate-200"></div>
 
         <div class="flex-grow">
             <h2>{{ item.first }} {{ item.last }}</h2>
+            <h2 class="text-base"">{{ item.credentials }}</h2>
+            <h2 class="text-base"">{{ item.pronouns }}</h2>
         </br>
-            <p>{{ item.bio | safe}}</p>
+            <p class="lg:pr-32">{{ item.bio | safe}}</p>
             {% if item.second %}
             <a>{{ item.second }}</a>
             {% endif %}
