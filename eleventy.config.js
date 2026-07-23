@@ -19,6 +19,9 @@ export default function (eleventyConfig) {
 		return `<button class="px-6 py-2 m-2 min-h-48px rounded-xl bg-green-700 border-none text-slate-200 font-semibold focus:text-slate-200 hover:text-slate-200 transition delay-50 duration-150 ease-in hover:scale-105 hover:bg-green-800 ">${buttonText}</button>`;
 	})
 
+	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+
 	return {
 		pathPrefix: "/Northern_Rockies_Counseling/"
 	}

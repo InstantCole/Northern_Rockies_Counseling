@@ -15,7 +15,4 @@
         @apply text-2xl font-playfair;
 
     }
-    body {
-        @apply font-lato;
-    }
 }

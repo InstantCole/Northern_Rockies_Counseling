@@ -1,21 +1,21 @@
 {
     "items": [
         {
-            "first": "First",
-            "last": "Last",
-            "photoUrl": "../assets/images/bg/tetons.webp",
+            "first": "Julie",
+            "last": "Ballew",
+            "photoUrl": "/assets/images/julie_ballew600x600.jpg",
             "bio": "Bio stuff goes here.",
             "_scheduling": "y to add scheduling button, n to remove",
             "scheduling": "y"
         },
         {
             "first": "Mary Beth",
-            "_last": "Larry",
-            "photoUrl": "../assets/images/bg/tetons.webp",
+            "_last": "",
+            "photoUrl": "/assets/images/mary_beth600x600.jpg",
             "bio": "Whether you are navigating a major life transition, managing the daily impacts of anxiety or carrying the heavy weight of trauma, depression, and loneliness I am here to support you. I believe that therapy is a collaborative space where you can show up exactly as you are. Together, we will look at the deeper questions and patterns impacting your life, while actively building the practical tools you need to feel more grounded, resilient, and connected. </br></br> My approach is deeply holistic and tailored to your unique identity and story. I weave evidence-based psychological frameworks with practical mindfulness meditation tools to help you develop sustainable nervous system regulation and self-compassion.Taking the step to begin therapy can feel daunting, but you do not have to navigate these challenges alone. I offer a warm, collaborative, and non-judgmental space where we can work toward the meaningful change and healing you deserve.",
             "_scheduling": "y to add scheduling button, n to remove",
             "scheduling": "n",
-            "second": "This is the second area"
+            "_second": "This is the second areadaf"
         }
     
     ]
