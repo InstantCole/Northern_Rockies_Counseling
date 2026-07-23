@@ -1,7 +1,8 @@
+import { HtmlBasePlugin } from "@11ty/eleventy";
+
+
 export default function (eleventyConfig) {
-	eleventyConfig.setBrowserSyncConfig({
-		online: false
-	  });
+	eleventyConfigure.addPlugin(HtmlBasePlugin);
 	eleventyConfig.setInputDirectory('src');
 	eleventyConfig.setOutputDirectory('dist');
 	// Set directories to pass through to the dist folder

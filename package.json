@@ -7,7 +7,8 @@
     "start": "npm run build:css && npx @11ty/eleventy --serve & postcss src/assets/css/main.css -o dist/assets/css/main.css --watch",
     "build:css": "postcss src/assets/css/main.css -o dist/assets/css/main.css",
     "build:eleventy": "npx @11ty/eleventy",
-    "build": "npm run build:css && npm run build:eleventy"
+    "build": "npm run build:css && npm run build:eleventy",
+    "build-ghpages": "npm run build:css && npm run build:eleventy --pathprefix=/Northern_Rockies_Counseling/"
   },
   "keywords": [],
   "author": "",
