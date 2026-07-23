@@ -3,7 +3,7 @@
     <div class="flex-col relative m-1 p-4 min-w-xs flex-1 mx-auto outline outline-2 outline-offset-0 outline-olive-300 rounded-xl">
 
         <div class="sm:flex sm:justify-start justify-around mx-auto w-full">   
-            <img src="assets/images/bg/tetons.webp" class="rounded-full sm:rounded-xl size-42 object-cover"/>
+            <img src="{{ assets/images/bg/tetons.webp | url }}" class="rounded-full sm:rounded-xl size-42 object-cover"/>
             <div>
                 {% if item.scheduling == "y" %}
                     {% button "Schedule" %}
