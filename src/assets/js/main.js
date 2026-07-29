@@ -45,33 +45,33 @@
   }
    */
 
-  const slider = document.getElementById('slider');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-  const dots = document.querySelectorAll('.dot');
+    const slider = document.getElementById('slider');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const dots = document.querySelectorAll('.dot');
+    
+    let index = 0;
+    const totalSlides = dots.length;
   
-  let index = 0;
-  const totalSlides = dots.length;
-
-  function updateSlider() {
-    slider.style.transform = `translateX(-${index * 100}%)`;
-    dots.forEach((dot, i) => {
-      dot.classList.toggle('bg-opacity-100', i === index);
-      dot.classList.toggle('bg-opacity-50', i !== index);
+    function updateSlider() {
+      slider.style.transform = `translateX(-${index * 25}%)`;
+      dots.forEach((dot, i) => {
+      dot.classList.toggle('bg-white/100', i === index);
+      dot.classList.toggle('bg-white/50', i !== index);
     });
-  }
+    }
+  
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % totalSlides;
+      updateSlider();
+    });
+  
+    prevBtn.addEventListener('click', () => {
+      index = (index - 1 + totalSlides) % totalSlides;
+      updateSlider();
+    });
 
-  nextBtn.addEventListener('click', () => {
-    index = (index + 1) % totalSlides;
-    updateSlider();
-  });
-
-  prevBtn.addEventListener('click', () => {
-    index = (index - 1 + totalSlides) % totalSlides;
-    updateSlider();
-  });
-
-  dots.forEach((dot, i) => {
+    dots.forEach((dot, i) => {
     dot.addEventListener('click', () => {
       index = i;
       updateSlider();
