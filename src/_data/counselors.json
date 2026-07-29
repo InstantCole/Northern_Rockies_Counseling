@@ -15,14 +15,37 @@
         {
             "first": "Mary Beth",
             "_last": "",
-            "credentials": "alfjjf",
+            "credentials": "credentials",
             "availability": "Accepting new patients",
             "photoURL": "/assets/images/mary_beth600x600.jpg",
             "bio": "Whether you are navigating a major life transition, managing the daily impacts of anxiety or carrying the heavy weight of trauma, depression, and loneliness I am here to support you. I believe that therapy is a collaborative space where you can show up exactly as you are. Together, we will look at the deeper questions and patterns impacting your life, while actively building the practical tools you need to feel more grounded, resilient, and connected. </br></br> My approach is deeply holistic and tailored to your unique identity and story. I weave evidence-based psychological frameworks with practical mindfulness meditation tools to help you develop sustainable nervous system regulation and self-compassion.Taking the step to begin therapy can feel daunting, but you do not have to navigate these challenges alone. I offer a warm, collaborative, and non-judgmental space where we can work toward the meaningful change and healing you deserve.",
             "_scheduling": "y to add scheduling button, n to remove",
             "scheduling": "y",
             "_second": "This is the second areadaf"
+        },
+        {
+            "first": "Abby",
+            "last": "McGill",
+            "credentials": "credentials",
+            "availability": "Accepting new patients",
+            "photoURL": "/assets/images/abby_mcgill600x600.jpg",
+            "bio": "I welcome clients from diverse backgrounds, identities, and lived experiences. Grounded in a Person-Centered Approach, I strive to create an environment where you feel heard, respected, and accepted without judgement. I believe you are the expert on your own life, and my role is to provide a supportive and curious space where you can explore your experiences, discover your strengths, and move toward what feels most authentic and meaningful. </br></br> I value the therapeutic relationship as a space for curiosity, reflection, and growth. I strive to create a space where you can explore the experiences and patterns that have shaped you, recognize the ways you have adapted, and identify opportunities to adjust what may no longer be helpful in the present. Through increased self-awareness and compassion, we can work toward changes that align with your values and goals. </br></br> Outside of the counseling office, I enjoy traveling, discovering new music, and spending time outdoors with my dogs.",
+            "_scheduling": "y to add scheduling button, n to remove",
+            "scheduling": "y",
+            "_second": "This is the second areadaf"
+        },
+        {
+            "first": "Sidney",
+            "last": "Hahn",
+            "credentials": "credentials",
+            "availability": "Accepting new patients",
+            "photoURL": "/assets/images/bg/staff_pic.jpg",
+            "bio": "I'm passionate about helping individuals and families navigate life's challenges with compassion, curiosity, and hope. Grounded in a person-centered, trauma-informed approach, I believe healing begins in relationships where people feel genuinely seen, heard, and accepted. </br></br> My clinical interests include life transitions, relationships, trauma, and parenting. Drawing on my experience as an educator, parent, athlete, and counselor, I bring a practical, relational approach to this work, helping people build healthier relationships and stronger emotional well-being. </br></br> Before becoming a counselor, I spent more than 20 years in public education as a kindergarten teacher and school librarian. Those years deepened my appreciation for the resilience of children, families, and communities, and reinforced how much it matters to create spaces where people feel safe to grow, connect, and thrive. </br></br> I’m drawn to movement and high alpine meadows, coffee, projects, and good stories.",
+            "_scheduling": "y to add scheduling button, n to remove",
+            "scheduling": "y",
+            "_second": "This is the second areadaf"
         }
+
     
     ]
 
