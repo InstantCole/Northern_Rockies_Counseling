@@ -14,12 +14,13 @@
 			[x-cloak] { display: none !important; }
 		</style>
 	</head>
-	<body id="site-body" class="m-0 font-lato antialiased text-gray-700">
+	<body id="site-body" class="flex flex-col m-0 font-lato antialiased text-gray-700 min-h-screen">
 		{% include "partials/site-head.html" %}
-		<main tabindex="-1" id="main-content" class="relative bg-white py-0 px-0 mx-auto flex flex-col max-w-7xl">
+		<main tabindex="-1" id="main-content" class="relative bg-white py-0 px-0 flex-grow flex-col">
 				{% block content %}{% endblock %}
 				{% include "partials/footer.html" %}
 		</main>
 		
+		<script src="/assets/js/main.js"></script>
 	</body>
 </html>

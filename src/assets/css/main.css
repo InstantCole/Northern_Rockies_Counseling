@@ -20,6 +20,6 @@
 @layer components {
 
     .main-content {
-        @apply px-6 sm:px-12 md:px-24;
+        @apply px-8 sm:px-12 md:px-24;
     }
 }

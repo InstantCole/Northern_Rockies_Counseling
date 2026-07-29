@@ -8,14 +8,18 @@
                 {% for item in navigation.header %}
                 <a href="{{ item.url }}"  {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
                 {% endfor %}
+                {% set buttonText= "Log In" %}
+                {% include "partials/button.html" %}
             </nav>
                                 <!-- x-on:click="mobileMenuOpen = !mobileMenuOpen" -->
 
             <div class="flex items-end sm:hidden">
+                {% set buttonText= "Log In" %}
+                {% include "partials/button.html" %}
                 <button 
                     x-on:click="console.log('Hamburger clicked! Current state:', mobileMenuOpen); mobileMenuOpen = !mobileMenuOpen"
                     type="button" 
-                    class="text-gray-600 hover:text-gray-900 focus:outline-none"
+                    class="text-gray-600 hover:text-gray-900 focus:outline-none pl-4"
                     x-bind:aria-expanded="mobileMenuOpen"
                     aria-label="Toggle navigation menu"
                 >
@@ -27,7 +31,9 @@
                     <svg x-show="mobileMenuOpen" x-cloak class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>
+                    
                 </button>
+                
             </div>
            
         </div>
@@ -51,6 +57,7 @@
                 {% for item in navigation.header %}
                 <a href="{{ item.url }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
                 {% endfor %}
+                
                 </div>
             </nav>
         </div>

@@ -1,0 +1,33 @@
+<div class="relative hero w-full bg-white mx-auto">
+    <div class="relative flex-col overlfow-hidden">
+        <div class="relative sm:absolute sm:-top-10 justify-center items-center w-full overflow-hidden sm:opacity-25 sm:max-h-75">
+            <img src="/assets/images/bg/staff_pic.jpg" class="relative"/>
+        </div>
+        <div class="main-content pt-10 text-slate-900">
+            <div class="relative">
+                <h1>{{ title }}</h1>
+                <h2>Coming soon! Website currently under construction.</h2>
+            </div>
+            <div class="relative pt-4 flex flex-row flex-wrap gap-8 mx-auto">
+                <div class="relative flex-1">
+                    <div class="relative flex flex-col sm:flex-row items-start gap-4 rounded-lg shadow-lg p-6 bg-white/80 border-1 boder-slate-700">
+                        <div class="relative min-w-40 flex-grow">
+                            CTA messaging 1 goes here and can be this long.
+                        </div>
+                        {% set buttonText= "CTA 1" %}
+                        {% include "partials/button.html" %}
+                    </div>
+                </div>
+                <div class="relative flex-1">
+                    <div class="relative flex flex-col sm:flex-row items-start gap-4 rounded-lg shadow-lg p-6 bg-white/80 border-1 boder-slate-700">
+                        <div class="relative min-w-40 flex-grow">
+                            CTA messaging 1 goes here and can be this long.
+                        </div>
+                        {% set buttonText= "CTA 2" %}
+                        {% include "partials/button.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

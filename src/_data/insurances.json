@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "name": "Aetna",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Cigna",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Blue Cross Blue Shield",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "First Choice Health",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "insuranceURL": "http://www.google.com"
+        }
+       
+    
+    ]
+
+
+}

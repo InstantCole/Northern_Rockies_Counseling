@@ -1,7 +1,21 @@
 {% extends "layouts/base.html" %}
 {% block content %}
-{% include "partials/hero.html" %}
-<div class="main-content pt-6 lg:pt-12">
+<div class="relative flex flex-col md:flex-row md:gap-4 justify-center items-center px-8 pt-8 pb-16 text-center">
+	<div class="hidden md:block flex flex-col">
+		<h1 class="pb-4 hidden md:block">Honoring and Supporting Your Wellbeing</h1>
+		<p class="sm:px-24 pt-4 hidden md:block">
+			Julie and her supervisees offer individual, couple and family counseling to help you reach your unique goals.
+		</p>
+	</div>
+	<h1 class="pb-4 md:hidden">Honoring and Supporting Your Wellbeing</h1>
+	<div class="relative w-full min-w-75">
+		<img src="/assets/images/bg/staff_pic.jpg" class="flex rounded-xl object-cover">
+	</div>
+	<p class="sm:px-24 pt-4 md:hidden">
+		Julie and her supervisees offer individual, couple and family counseling to help you reach your unique goals.
+	</p>
+</div>
+<div class="relative flex flex-col justify-center items-center main-content pt-12 lg:pt-24 text-center">
 	{{ content | safe }}
 </div>
 {% endblock %}

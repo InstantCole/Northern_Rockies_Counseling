@@ -17,28 +17,20 @@
 
     "footer": [
         {
-            "text": "Map",
-            "url": "/"
+            "text": "Locations",
+            "url": "/locations"
         },
         {
             "text": "Legal",
-            "url": "/counselors"
+            "url": "/legal"
         },
         {
-            "text": "Legal",
-            "url": "/counselors"
+            "text": "Contact",
+            "url": "/contact-us"
         },
         {
-            "text": "Legal",
-            "url": "/counselors"
-        },
-        {
-            "text": "Legal",
-            "url": "/counselors"
-        },
-        {
-            "text": "Legal",
-            "url": "/counselors"
+            "text": "Insurance",
+            "url": "/insurance"
         }
     ]
 }
