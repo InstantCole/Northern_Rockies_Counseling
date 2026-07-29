@@ -21,15 +21,11 @@
             "url": "/locations"
         },
         {
-            "text": "Legal",
-            "url": "/legal"
-        },
-        {
             "text": "Contact",
             "url": "/contact-us"
         },
         {
-            "text": "Insurance",
+            "text": "Accepted Insurance",
             "url": "/insurance"
         }
     ]
