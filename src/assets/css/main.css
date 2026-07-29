@@ -13,7 +13,20 @@
     }
     h2 {
         @apply text-2xl font-playfair;
+    }
 
+    main a {
+        @apply text-green-700;
+    }
+    main a:hover {
+        @apply text-lime-800;
+    }
+
+    header a {
+        @apply text-black;
+    }
+    header a:hover {
+        @apply text-green-700;
     }
 }
 

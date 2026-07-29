@@ -54,7 +54,7 @@
     const totalSlides = dots.length;
   
     function updateSlider() {
-      slider.style.transform = `translateX(-${index * 25}%)`;
+      slider.style.transform = `translateX(-${index * (100/totalSlides)}%)`;
       dots.forEach((dot, i) => {
       dot.classList.toggle('bg-white/100', i === index);
       dot.classList.toggle('bg-white/50', i !== index);

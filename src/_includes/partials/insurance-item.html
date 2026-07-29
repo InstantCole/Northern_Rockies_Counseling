@@ -1,6 +1,10 @@
 {% for item in insurances.items %}
-
-    <h3 class="flex w-1/3">{{ item.name }}</h3>
+    {% if item.accepting == "y" %}
+    <div>
+        <h3 class="flex-grow">{{ item.name }}</h3>
+        <a href="{{ item.insuranceURL }}">Visit Site</a>
+    </div>
+    {% endif %}
             
 
 {% endfor %}
