@@ -22,9 +22,9 @@ export default function (eleventyConfig) {
 	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
 
-	return {
+	/* return {
 		pathPrefix: "/Northern_Rockies_Counseling/"
-	}
+	} */
 }
 
 export const config = {
