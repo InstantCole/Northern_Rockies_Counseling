@@ -49,9 +49,15 @@
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
     const dots = document.querySelectorAll('.dot');
+    const totalSlides = dots.length;
+
     
     let index = 0;
-    const totalSlides = dots.length;
+    let isSwiping = false;
+    let startX;
+    let endX;
+    let scrollLeft;
+    let scrollRight;
   
     function updateSlider() {
       slider.style.transform = `translateX(-${index * (100/totalSlides)}%)`;
@@ -68,6 +74,27 @@
   
     prevBtn.addEventListener('click', () => {
       index = (index - 1 + totalSlides) % totalSlides;
+      updateSlider();
+    });
+
+    slider.addEventListener('touchstart', (e) => {
+      isSwiping = true;
+      startX = e.touches[0].pageX;
+
+    })
+
+    slider.addEventListener('touchend', (e) => {
+      isSwiping = false;
+      endX = e.changedTouches[0].pageX
+      if (startX <= endX) {
+        index = (index - 1) % totalSlides;
+        console.log(startX + " "  + endX);
+      }
+      if (startX > endX) {
+        index = (index + 1 + totalSlides) % totalSlides;
+        console.log(startX + " "  + endX);
+      }
+      
       updateSlider();
     });
 
