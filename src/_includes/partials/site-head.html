@@ -1,5 +1,5 @@
 <header role="banner" x-data="{ mobileMenuOpen: false }" class="site-head relative shadow-md z-50">
-    <div class="wrapper px-4 md:px-12 py-8 bg-white">
+    <div class="flex-col items-end wrapper px-4 md:px-12 py-8 bg-white">
 	    <div class="mx-auto flex flex-row gap-12 max-w-7xl">
             <a href="/" aria-label="{{ site.name }}" class="flex-grow">
                 <img width="275px" class="min-w-215px" src="/assets/logos/nrc_logo.jpg" alt="{{ site.name }}"/>
@@ -35,7 +35,7 @@
                 </button>
                 
             </div>
-           
+            
         </div>
         <div 
             x-show="mobileMenuOpen" 
@@ -47,7 +47,8 @@
             x-transition:leave="transition ease-in duration-150"
             x-transition:leave-start="opacity-100 translate-y-0"
             x-transition:leave-end="opacity-0 -translate-y-4"
-            class="sm:hidden absolute top-45 inset-x-0 bg-white shadow-lg border-t border-gray-100 justify-right"
+
+            class="sm:hidden absolute mt-2 w-full inset-x-0 bg-white shadow-lg border-t border-gray-100 justify-right"
         >
             <nav class="px-2 pt-2 pb-4 space-y-1 sm:px-3 text-right">
                <!--  <a href="/" aria-label="{{ site.name }}" class="block">

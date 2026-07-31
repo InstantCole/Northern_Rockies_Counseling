@@ -82,22 +82,20 @@
       isSwiping = true;
       startX = e.touches[0].pageX;
 
-    })
+    }, { passive: false })
 
     slider.addEventListener('touchend', (e) => {
       isSwiping = false;
       endX = e.changedTouches[0].pageX
       if (startX <= endX) {
         index = (index - 1) % totalSlides;
-        console.log(startX + " "  + endX);
       }
       if (startX > endX) {
         index = (index + 1 + totalSlides) % totalSlides;
-        console.log(startX + " "  + endX);
       }
       
       updateSlider();
-    });
+    }, { passive: false });
 
     dots.forEach((dot, i) => {
     dot.addEventListener('click', () => {
