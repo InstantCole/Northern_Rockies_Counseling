@@ -78,6 +78,7 @@
     });
 
     slider.addEventListener('touchstart', (e) => {
+      e.preventDefault();
       isSwiping = true;
       startX = e.touches[0].pageX;
 
