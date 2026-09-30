@@ -39,8 +39,19 @@
             "last": "Hahn",
             "credentials": "credentials",
             "availability": "Accepting new patients",
-            "photoURL": "/assets/images/bg/staff_pic.jpg",
+            "photoURL": "/assets/images/sidney_hahn.jpg",
             "bio": "I'm passionate about helping individuals and families navigate life's challenges with compassion, curiosity, and hope. Grounded in a person-centered, trauma-informed approach, I believe healing begins in relationships where people feel genuinely seen, heard, and accepted. </br></br> My clinical interests include life transitions, relationships, trauma, and parenting. Drawing on my experience as an educator, parent, athlete, and counselor, I bring a practical, relational approach to this work, helping people build healthier relationships and stronger emotional well-being. </br></br> Before becoming a counselor, I spent more than 20 years in public education as a kindergarten teacher and school librarian. Those years deepened my appreciation for the resilience of children, families, and communities, and reinforced how much it matters to create spaces where people feel safe to grow, connect, and thrive. </br></br> I’m drawn to movement and high alpine meadows, coffee, projects, and good stories.",
+            "_scheduling": "y to add scheduling button, n to remove",
+            "scheduling": "y",
+            "_second": "This is the second areadaf"
+        },
+        {
+            "first": "Lucy",
+            "last": "Lawler",
+            "credentials": "credentials",
+            "availability": "Accepting new patients",
+            "photoURL": "/assets/images/lucy_lawler.jpg",
+            "bio": "I recently graduated from the University of Montana with a MA in Clinical Mental Health Counseling. I am interested in helping clients navigate life transitions, grief, and trauma in ways that honor their values and strengthen their sense of self. My counseling approach is grounded in Existential-Humanistic Theory and incorporates interventions from Somatic Psychotherapy and Ecotherapy. I happily offer walk-and-talk session to create space to explore not only what’s happening in your mind, but what’s happening in your body and your relationship with the world around you. In addition to individual counseling, I offer couples counseling informed by Imago and Gottman approaches and enjoy facilitating groups focused on happiness and burnout. When I’m not counseling, you can usually find me soaking up Missoula’s beauty—preferably paddle-boarding on a lake!",
             "_scheduling": "y to add scheduling button, n to remove",
             "scheduling": "y",
             "_second": "This is the second areadaf"
