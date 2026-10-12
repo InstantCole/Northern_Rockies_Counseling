@@ -1,100 +1,88 @@
 {
     "items": [
         {
+            "name": "BCBC",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Pacific Source",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
             "name": "Aetna",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
-            "insuranceURL": "http://www.google.com"
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "United Healthcare",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Tricare",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "TriWest",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Champ VA",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Allegiance",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Mountain Health Co-Op",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
         },
         {
             "name": "Cigna",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
-            "insuranceURL": "http://www.google.com"
+            "_insuranceURL": "http://www.google.com"
         },
         {
-            "name": "Blue Cross Blue Shield",
+            "name": "1st Choice Health",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
-            "insuranceURL": "http://www.google.com"
+            "_insuranceURL": "http://www.google.com"
         },
         {
-            "name": "First Choice Health",
+            "name": "Optum",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
-            "insuranceURL": "http://www.google.com"
+            "_insuranceURL": "http://www.google.com"
         },
         {
-            "name": "Cigna",
+            "name": "MH Net",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
-            "insuranceURL": "http://www.google.com"
+            "_insuranceURL": "http://www.google.com"
         },
         {
-            "name": "Blue Cross Blue Shield",
+            "name": "Medicaid",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "First Choice Health",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Cigna",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Blue Cross Blue Shield",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "First Choice Health",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Cigna",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Blue Cross Blue Shield",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "First Choice Health",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Cigna",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Blue Cross Blue Shield",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "First Choice Health",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "insuranceURL": "http://www.google.com"
+            "_insuranceURL": "http://www.google.com"
         }
        
     
