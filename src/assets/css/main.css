@@ -19,14 +19,14 @@
         @apply text-green-700;
     }
     main a:hover {
-        @apply text-lime-800;
+        @apply text-black;
     }
 
     header a {
         @apply text-black;
     }
     header a:hover {
-        @apply text-green-700;
+        @apply text-black underline;
     }
 }
 
