@@ -1,13 +1,7 @@
 {
     "items": [
         {
-            "name": "BCBC",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "_insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Pacific Source",
+            "name": "1st Choice Health",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
             "_insuranceURL": "http://www.google.com"
@@ -19,19 +13,13 @@
             "_insuranceURL": "http://www.google.com"
         },
         {
-            "name": "United Healthcare",
+            "name": "Allegiance",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
             "_insuranceURL": "http://www.google.com"
         },
         {
-            "name": "Tricare",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "_insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "TriWest",
+            "name": "BCBC",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
             "_insuranceURL": "http://www.google.com"
@@ -43,31 +31,13 @@
             "_insuranceURL": "http://www.google.com"
         },
         {
-            "name": "Allegiance",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "_insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Mountain Health Co-Op",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "_insuranceURL": "http://www.google.com"
-        },
-        {
             "name": "Cigna",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
             "_insuranceURL": "http://www.google.com"
         },
         {
-            "name": "1st Choice Health",
-            "_accepting": "y to add it as accepted to list",
-            "accepting": "y",
-            "_insuranceURL": "http://www.google.com"
-        },
-        {
-            "name": "Optum",
+            "name": "GEHA",
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
             "_insuranceURL": "http://www.google.com"
@@ -83,10 +53,42 @@
             "_accepting": "y to add it as accepted to list",
             "accepting": "y",
             "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Mountain Health Co-Op",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Optum",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Pacific Source",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "TriWest",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "Tricare",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
+        },
+        {
+            "name": "United Healthcare",
+            "_accepting": "y to add it as accepted to list",
+            "accepting": "y",
+            "_insuranceURL": "http://www.google.com"
         }
-       
-    
     ]
-
-
 }

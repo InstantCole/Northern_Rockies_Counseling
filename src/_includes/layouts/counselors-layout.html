@@ -1,0 +1,8 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="main-content pt-10 pb-24 md:px-36 bg-[url(../images/bg/nrc_mountains.jpg)] w-full bg-fixed bg-cover backdrop-blur-xs">
+    <div class="absolute inset-0 bg-black/35 z-0"></div>
+{{ content | safe }}
+</div>
+{% endblock %}

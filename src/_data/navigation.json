@@ -1,28 +1,35 @@
 {
     "header": [
         {
+            "text": "Home",
+            "url": "/"
+        },
+        {
+            "text": "Contact",
+            "url": "/contact"
+        },
+        {
             "text": "Counselors",
             "url": "/counselors"
-        }
-        ,
+        },
         {
-            "text": "Workshops",
-            "url": "/workshops"
+            "text": "Services",
+            "url": "/services"
         }
     ],
 
     "footer": [
         {
-            "text": "Locations",
-            "url": "/locations"
-        },
-        {
             "text": "Contact",
-            "url": "/contact-us"
+            "url": "/contact"
         },
         {
-            "text": "Accepted Insurance",
-            "url": "/insurance"
+            "text": "Insurance/Billing",
+            "url": "/insurance-billing"
+        } ,
+        {
+            "text": "Services",
+            "url": "/services"
         }
     ]
 }

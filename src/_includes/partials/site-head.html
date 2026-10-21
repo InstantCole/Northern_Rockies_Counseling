@@ -1,14 +1,15 @@
 <header role="banner" x-data="{ mobileMenuOpen: false }" class="site-head relative shadow-md z-50">
     <div class="flex-col items-end wrapper px-4 md:px-12 py-8 bg-[#e9c99f]/5">
-	    <div class="mx-auto flex flex-row gap-12 max-w-7xl">
+	    <div class="mx-auto flex flex-row gap-0 max-w-7xl">
             <a href="/" aria-label="{{ site.name }}" class="flex-grow">
-                <img width="500px" class="min-w-215px" src="/assets/logos/nrc_logo.png" alt="{{ site.name }}"/>
+                <img width="550px" class="min-w-215px" src="/assets/logos/nrc_logo.png" alt="{{ site.name }}"/>
             </a>
-            <nav class="hidden sm:flex flex-col sm:flex-row justify-around items-start sm:items-end gap-4 sm:gap-12" aria-label="Primary">
+            <nav class="hidden sm:flex flex-col sm:flex-row justify-around items-start sm:items-end gap-4 sm:gap-8" aria-label="Primary">
                 {% for item in navigation.header %}
                 <a href="{{ item.url }}"  {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
                 {% endfor %}
                 {% set buttonText= "Log In" %}
+                {% set buttonURL= "https://julie-ballew.clientsecure.me/sign-in" %}
                 {% include "partials/button.html" %}
             </nav>
                                 <!-- x-on:click="mobileMenuOpen = !mobileMenuOpen" -->

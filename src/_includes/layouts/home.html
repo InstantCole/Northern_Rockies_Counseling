@@ -1,21 +1,33 @@
 {% extends "layouts/base.html" %}
 {% block content %}
-<div class="relative flex flex-col bg-emerald-800 md:flex-row md:gap-8 justify-center items-center px-8 pt-8 pb-16 text-center text-gray-100">
+<div class="bg-[url(../images/bg/nrc_mountains.jpg)] w-full bg-fixed bg-cover">
+<div class="relative flex flex-col bg-black/30 md:flex-row md:gap-8 justify-center items-start sm:items-center px-8 pt-8 pb-16 text-center text-gray-100">
 	<div class="hidden md:block flex flex-col">
-		<h1 class="pb-4 hidden md:block">Honoring and Supporting Your Wellbeing</h1>
+		<h1 class="pb-4 hidden md:block">Honoring and Supporting</br>Your Wellbeing</h1>
 		<p class="pt-4 hidden md:block">
-			Our goal is to walk with our clients as they seek to embody their capacity using relationship-based, trauma-informed, and strength-based counseling approaches. Services include individual, couples, family and group counseling as well as workshops and professional trainings.
+			Our goal is to walk with our clients as they seek to embody their capacity using relationship-based, trauma-informed, and strength-based counseling approaches.
 		</p>
+		</br>
+		</br>
+		<h2>Services include individual, couples, family and group counseling as well as workshops and professional trainings.</h2>
 	</div>
-	<h1 class="pb-4 md:hidden">Honoring and Supporting Your Wellbeing</h1>
+	<h1 class="pb-4 md:hidden">Honoring and Supporting</br>Your Wellbeing</h1>
 	<div class="relative w-full min-w-75">
 		<img src="/assets/images/bg/staff_pic_072926.jpg" class="flex rounded-xl object-cover">
 	</div>
-	<p class="sm:px-16 pt-4 md:hidden">
-		Our goal is to walk with our clients as they seek to embody their capacity using relationship-based, trauma-informed, and strength-based counseling approaches. Services include individual, couples, family and group counseling as well as workshops and professional trainings.
+	<div class="sm:px-16 pt-4 md:hidden">
+		<p >
+		Our goal is to walk with our clients as they seek to embody their capacity using relationship-based, trauma-informed, and strength-based counseling approaches.
 	</p>
+</br>
+</br>
+<h2>Services include individual, couples, family and group counseling as well as workshops and professional trainings.</h2>
+</div>
+</div>
+	
 </div>
 <div class="relative flex pt-10 flex-col justify-center items-center main-content text-center">
 	{{ content | safe }}
 </div>
+
 {% endblock %}
